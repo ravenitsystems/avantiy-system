@@ -14,6 +14,12 @@ return [
     |
     */
 
+    'duda' => [
+        'host' => env('DUDA_HOST'),
+        'user' => env('DUDA_USER'),
+        'pass' => env('DUDA_PASS'),
+    ],
+
     'postmark' => [
         'key' => env('POSTMARK_API_KEY'),
     ],
